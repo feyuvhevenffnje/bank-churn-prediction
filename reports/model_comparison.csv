@@ -1,0 +1,4 @@
+model,accuracy_cv,precision_cv,recall_cv,f1_cv,roc_auc_cv,train_acc,test_acc,test_precision,test_recall,test_f1,test_roc_auc,overfit_gap
+LogisticRegression,0.8105,0.5967,0.2141,0.3148,0.7628,0.8107,0.808,0.5891,0.1867,0.2836,0.7748,0.0027
+DecisionTree,0.7884,0.4812,0.5018,0.4909,0.6818,1.0,0.7945,0.4954,0.5307,0.5125,0.6963,0.2055
+RandomForest,0.8566,0.7433,0.4515,0.5617,0.8487,1.0,0.8575,0.75,0.4496,0.5622,0.8484,0.1425
