@@ -1,0 +1,24 @@
+{
+  "features": [
+    "CreditScore",
+    "Age",
+    "Tenure",
+    "Balance",
+    "NumOfProducts",
+    "HasCrCard",
+    "IsActiveMember",
+    "EstimatedSalary",
+    "Geography",
+    "Gender"
+  ],
+  "target": "Exited",
+  "model": "RandomForestClassifier",
+  "best_params": {
+    "n_estimators": 200,
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "random_state": 42
+  },
+  "default_threshold": 0.5,
+  "test_roc_auc": 0.8602
+}
